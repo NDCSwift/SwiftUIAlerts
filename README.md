@@ -1,39 +1,29 @@
+# 🚨 SwiftUI Alerts
 
-# 🚀 Getting Started
+A SwiftUI example demonstrating alerts, confirmation dialogs, and action sheets in iOS apps.
 
-## 1. Clone the Repo
-```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
-```
-Or select “Clone Git Repository…” when Xcode launches.
+## 📖 What this is
+This project covers how to present alerts and confirmation dialogs in SwiftUI using the `.alert` and `.confirmationDialog` modifiers. It shows single and multi-button alerts, destructive actions, and how to pass data into alert messages. A handy reference for handling user confirmations and warnings.
 
-⸻
+## ✅ Why you'd use it
+- **Alert and confirmationDialog both covered** — know which one to use and when
+- **Multi-button and destructive patterns** — see how to build standard OK/Cancel and delete flows
+- **State-driven presentation** — clean examples of binding alert visibility to app state
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/mq9m3NA3joc)
 
-⸻
+## 🚀 Getting Started
+1. Clone the repo
+2. Open `Alerts.xcodeproj` in Xcode
+3. Select your target device or simulator
+4. Update the bundle ID if needed
+5. Build and run
 
-## 3. Set Your Development Team
+## 📝 Notes
+- Built with SwiftUI
+- Requires Xcode 14+
 
-In Xcode, navigate to:
-
-TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
-
-⸻
-
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
-
-⸻
-
-🛠️ Notes
-
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://youtu.be/mq9m3NA3joc)
+## ⚙️ Requirements
+- iOS 16+
+- Xcode 14+
+- Swift 5.7+
